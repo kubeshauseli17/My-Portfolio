@@ -1,0 +1,248 @@
+#resume {
+    display: grid;
+    gap: 1rem;
+}
+
+.resume_container {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1rem;
+    padding: 20px;
+    background: var(--color-bg);
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+.resume_container:hover {
+    background: var(--color-bg-variant);
+    border-color: var(--color-primary-variant);
+}
+
+.skills_container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 1rem 0 1rem;
+    gap: 1.5rem;
+}
+
+
+.section_header {
+    justify-content: center;
+    text-align: center;
+    color: var(--color-primary);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--color-bg);
+}
+
+.full_name {
+    display: flex;
+    justify-content: center;
+}
+
+.contact_info {
+    justify-self: end;
+}
+
+.exp {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.company_info {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.employment_length {
+    padding-bottom: 10px;
+}
+
+.li {
+    list-style-type: circle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.school_name {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.class_info {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ed {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.skills_container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.technical_details {
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.technical_skills {
+    margin-top: 20px;
+    border-radius: 2rem;
+    border: 2px solid transparent;
+    width: 1fr;
+    background: var(--color-bg);
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    transition: var(--transition);
+}
+
+.technical_skills:hover {
+    background: var(--color-bg-variant);
+    border-color: var(--color-white);
+}
+
+.technical_skills>h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-white)
+}
+
+.technical_skills>h5 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-white)
+}
+
+.personal_details {
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.personal_skills {
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 2px solid transparent;
+    width: 1fr;
+    background: var(--color-bg);
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    transition: var(--transition);
+}
+
+.personal_skills:hover {
+    background: var(--color-bg-variant);
+    border-color: var(--color-white);
+}
+
+.personal_skills>h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-white)
+}
+
+.personal_skills>h5 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-white)
+}
+
+.skills_name {
+    padding-top: 20px;
+}
+
+.logo {
+    color: var(--color-primary)
+}
+/* ---- ResumeDL ---- */
+
+.resume_dl {
+    padding-top: 20px;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+li {
+    text-decoration-style: dotted;
+}
+
+/* ---- Media Queries (Tablet) ---- */
+
+@media screen and (max-width: 1024px) {
+
+    .skills_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+    .technical_skills {
+        grid-template-columns: 1fr;
+    }
+
+    .technical_skills > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .technical_details {
+        padding: 1rem;
+    }
+
+    .personal_skills {
+        grid-template-columns: 1fr;
+    }
+
+    .personal_skills > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .personal_details {
+        padding: 1rem;
+    }
+}
+
+.resume_dl {
+
+}
+
+/* ---- Media Queries (Phones) ---- */
+
+@media screen and (max-width: 600px) {
+
+    .skills_container {
+        width: fit-content;
+        display: block;
+        grid-template-columns: repeat(1fr);
+        gap: 1rem;
+    }
+
+    .technical_skills {
+        width: fit-content;
+        margin-bottom: 1rem;
+    }
+
+    .technical_skills > div {
+        width: 65%;
+    }
+
+    .personal_skills {
+        gap: 1rem;
+    }
+
+    .personal_skills > div {
+        width: 65%;
+    }
+}
