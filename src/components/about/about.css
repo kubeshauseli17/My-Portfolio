@@ -46,6 +46,7 @@
 .family_image {
   margin-top: 225px;
   border: 2px solid transparent;
+  border-color: var(--color-bg);
   border-radius: 2rem;
 }
 
