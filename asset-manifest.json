@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.a675a4e8.css",
+    "main.js": "/My-Portfolio/static/js/main.ffed6c68.js",
+    "static/media/background.webp": "/My-Portfolio/static/media/background.2de51a005ae11ec66dd8.webp",
+    "static/media/p2_pic.png": "/My-Portfolio/static/media/p2_pic.57a3c95e0b98d31d9069.png",
+    "static/media/p1_pic.png": "/My-Portfolio/static/media/p1_pic.525057ff2b32282a045e.png",
+    "static/media/family.jpeg": "/My-Portfolio/static/media/family.751a687443edd16fb97e.jpeg",
+    "static/media/p3_pic.png": "/My-Portfolio/static/media/p3_pic.cfd261f3035837745ac2.png",
+    "static/media/p4_pic.png": "/My-Portfolio/static/media/p4_pic.0ab986a253fbf38068b0.png",
+    "static/media/me.png": "/My-Portfolio/static/media/me.c5fb4653646a438bb7c3.png",
+    "static/media/Elijah_Kubes_resume.pdf": "/My-Portfolio/static/media/Elijah_Kubes_resume.22862ed1f290c2e3dbca.pdf",
+    "index.html": "/My-Portfolio/index.html",
+    "main.a675a4e8.css.map": "/My-Portfolio/static/css/main.a675a4e8.css.map",
+    "main.ffed6c68.js.map": "/My-Portfolio/static/js/main.ffed6c68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a675a4e8.css",
+    "static/js/main.ffed6c68.js"
+  ]
+}
