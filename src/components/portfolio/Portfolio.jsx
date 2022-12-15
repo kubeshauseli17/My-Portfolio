@@ -39,7 +39,7 @@ const portfolio_data = [
     project_name: "Project 4 Django & Postgres based Ecommerce site",
     p1: "A Django based E-commerce site (currently) that I would like to build into a ETSY like E-commerce hub. Where users can create their own stores and customize their store front. As it stands right now its a E-commerce store that I customized for myself and a side hustle of mine.",
     p2: "HTML, CSS, Django, Bootstrap, Postgres, SQLite3, Paypal",
-    demo: "http://eb-venv.eba-e7gmx7dk.us-west-2.elasticbeanstalk.com/",
+    demo: "https://p4-ecommerce.herokuapp.com/",
     github: "https://github.com/kubeshauseli17/Project-4",
   }
 ]
